@@ -19,6 +19,8 @@
   
   <h2>ÁRBOLES BINARIOS</h2>
 <p>Un árbol binario es una estructura de datos de tipo jerárquico en la cual cada nodo puede tener un hijo izquierdo y un hijo derecho, que pueden tener cero, uno o dos hijos (subárboles). Los árboles binarios son muy similares a las listas doblemente enlazadas, en el sentido que tienen dos punteros que apuntan a otros elementos, pero no tienen una estructura lógica de tipo lineal o secuencial como aquellas, sino ramificada. Tienen aspecto de árbol, de ahí su nombre.</p>
+  
+  <img src="https://www.tutorialspoint.com/data_structures_algorithms/images/tree_data_structure.jpg">
 
 <h3>NODOS</h3>
 <p>Un árbol binario puede tener cero nodos y este caso se dice que está vacío. Puede tener un sólo nodo, y en este caso solamente existe la raíz del árbol o puede tener un número finito de nodos.
