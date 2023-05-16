@@ -19,6 +19,8 @@
   
   <h2>ÁRBOLES BINARIOS</h2>
 <p>Un árbol binario es una estructura de datos de tipo jerárquico en la cual cada nodo puede tener un hijo izquierdo y un hijo derecho, que pueden tener cero, uno o dos hijos (subárboles). Los árboles binarios son muy similares a las listas doblemente enlazadas, en el sentido que tienen dos punteros que apuntan a otros elementos, pero no tienen una estructura lógica de tipo lineal o secuencial como aquellas, sino ramificada. Tienen aspecto de árbol, de ahí su nombre.</p>
+  
+  <img src="https://www.tutorialspoint.com/data_structures_algorithms/images/tree_data_structure.jpg">
 
 <h3>NODOS</h3>
 <p>Un árbol binario puede tener cero nodos y este caso se dice que está vacío. Puede tener un sólo nodo, y en este caso solamente existe la raíz del árbol o puede tener un número finito de nodos.
@@ -29,7 +31,7 @@ Se le llama nodo interno a todos los nodos que no hacen referencia a NULL, si al
   * Nodo hijo: cualquiera de los nodos apuntados por uno de los nodos del árbol.
   * Nodo padre: nodo que contiene un puntero al nodo actual.
   
-  (cada nodo sólo puede ser apuntado por otro nodo, es decir, cada nodo sólo tendrá un padre.)
+  (cada nodo sólo puede ser apuntado por otro nodo, es decir, cada nodo sólo tendrá un padre, menos el nodo raíz.)
 
 **En cuanto a la posición dentro del árbol se tiene:**
   * Nodo raíz: nodo que no tiene padre. Este es el nodo que usaremos para referirnos al árbol.
@@ -46,5 +48,27 @@ Se le llama nodo interno a todos los nodos que no hacen referencia a NULL, si al
 <p>Los árboles binarios son estructuras de datos jerárquicas, no lineales, por lo tanto su forma de recorrerlos difiere en comparación a las listas que son estructuras de datos de tipo lineal.
 
   El recorrido de un árbol se lleva a cabo en tres sentidos: Preorden, Inorden y Postorden.</p>
-
+  **Pre-orden:** 
+  
+    paso 1. visitar nodo raíz
+  
+    paso 2. recorrer subárbol izquierdo
+  
+    paso 3. recorrer subárbol derecho
+  
+  **Post-orden:** 
+  
+    paso 1. recorrer subárbol izquierdo
+  
+    paso 2. recorrer subárbol derecho
+  
+    paso 3. visitar nodo raíz
+  
+  **In-orden:** 
+  
+    paso 1. recorrer subárbol izquierdo
+  
+    paso 2. visitar nodo raíz
+  
+    paso 3. recorrer subárbol derecho
   </details>
